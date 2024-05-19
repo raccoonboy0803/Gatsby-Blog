@@ -8,7 +8,7 @@ interface LayoutProps {
 
 function Layout({ children, title }: LayoutProps) {
   return (
-    <div>
+    <div className="container">
       <nav>
         <ul>
           <li>
